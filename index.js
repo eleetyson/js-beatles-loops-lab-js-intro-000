@@ -10,7 +10,7 @@ function johnLennonFacts(anArr) {
   let i = 0;
   let toReturn = [];
   while (anArr[i]) {
-    toReturn.push(`${anArr[i]} !!!`);
+    toReturn.push(`${anArr[i]}!!!`);
     i++;
   } return toReturn;
 }

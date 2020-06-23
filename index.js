@@ -15,6 +15,10 @@ function johnLennonFacts(anArr) {
   } return toReturn;
 }
 
-function iLoveTheBeatles() {
-
+function iLoveTheBeatles(num) {
+  let storage = [];
+  do {
+    num++
+    storage.push("I love the Beatles!")
+  } while (num < 15);
 }

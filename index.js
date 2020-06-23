@@ -21,4 +21,5 @@ function iLoveTheBeatles(num) {
     num++;
     storage.push("I love the Beatles!");
   } while (num < 15);
+  return storage;
 }
